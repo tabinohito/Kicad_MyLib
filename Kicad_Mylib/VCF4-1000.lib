@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# VCF4-1000
+#
+DEF VCF4-1000 J 0 40 Y N 1 L N
+F0 "J" -302 252 50 H V L BNN
+F1 "VCF4-1000" -302 -352 50 H V L BNN
+F2 "TE_VCF4-1000" 0 0 50 H I L BNN
+F3 "Socket" 0 0 50 H I L BNN
+F4 "VCF4-1000" 0 0 50 H I L BNN
+F5 "PB232-ND" 0 0 50 H I L BNN
+F6 "TE Connectivity" 0 0 50 H I L BNN
+F7 "1393310-3" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+F9 "https://www.digikey.jp/product-detail/en/te-connectivity-potter-brumfield-relays/VCF4-1000/PB232-ND/207273?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F10 "Socket, Relay; PCB, VTF Series, 1 Pole, Quick-Connect, w/o Grounding Provision" 0 0 50 H I L BNN
+F11 "https://www.te.com/usa-en/product-1393310-3.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+DRAW
+A -100 150 50 2699 4500 0 0 10 N -100 200 -100 100
+A -100 50 50 2699 4500 0 0 10 N -100 100 -100 0
+A -100 -50 50 2699 4500 0 0 10 N -100 0 -100 -100
+A -100 -150 50 2699 4500 0 0 10 N -100 -100 -100 -200
+P 2 0 0 10 300 200 100 200 N
+P 2 0 0 10 100 200 100 100 N
+P 2 0 0 10 300 -200 100 -200 N
+P 2 0 0 10 100 -200 100 -100 N
+P 2 0 0 10 100 100 125 125 N
+P 2 0 0 10 100 100 75 125 N
+P 2 0 0 10 100 -100 75 -125 N
+P 2 0 0 10 100 -100 125 -125 N
+P 2 0 0 10 300 25 300 0 N
+P 2 0 0 10 300 0 300 -25 N
+P 2 0 0 10 300 0 225 0 N
+C 225 0 11 0 0 10 N
+P 2 0 0 10 225 0 75 100 N
+P 2 0 0 10 -300 200 -100 200 N
+P 2 0 0 10 -300 -200 -100 -200 N
+X 86 86 -500 200 200 R 40 40 0 0 P 
+X 85 85 -500 -200 200 R 40 40 0 0 P 
+X 87A 87A 500 200 200 L 40 40 0 0 P 
+X 30 30 500 0 200 L 40 40 0 0 P 
+X 87 87 500 -200 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VNH5019
+D Automotive fully integrated H-bridge motor driver
+K motor h-bridge
+$ENDCMP
+#
+#End Doc Library
